@@ -16,6 +16,12 @@ If you don't find the language you're looking for, feel free to open an issue or
 # Contributions
 
 All contributions are welcome. Please make sure to follow the existing code and file structure when submitting a new language or a modification.
+
+# Duplicate Programs
+
+Please note that duplicate programs in different languages and programming languages with multiple files are not included in this repository. The focus is on showcasing the "Hello, World!" program in as many unique programming languages as possible, with only single files as an example.
+
 # Note
 
 Keep in mind that the main goal of this repository is to show the Hello World program in multiple languages and to keep it simple, if you want to add more functionality to the program, it may be better to create a new repository.
+

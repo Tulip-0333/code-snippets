@@ -1,0 +1,4 @@
+PROGRAM HELLO_WORLD;
+BEGIN
+  WRITELN('Hello World');
+END.

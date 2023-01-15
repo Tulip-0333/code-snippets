@@ -1,0 +1,6 @@
+#include "aldor"
+
+main():() ==
+  print << "Hello, World!"
+
+main()

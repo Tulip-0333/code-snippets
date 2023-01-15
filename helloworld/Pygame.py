@@ -12,7 +12,7 @@ font = pygame.font.Font(None, 36)
 
 text = font.render("Hello, World!", 1, (255, 255, 255))
 
-text_rect = text.geet_rect()
+text_rect = text.get_rect()
 
 text_rect.center = (200, 200)
 

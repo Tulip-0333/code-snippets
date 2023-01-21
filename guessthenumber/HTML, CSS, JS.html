@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Guessing Game</title>
+  <style>
+    h1{
+      margin: 0;
+      padding: 0;
+      font-weight: 300;
+      font-size: 30px;
+      font-family: sans-serif;
+      letter-spacing: 0;
+      text-align: center;
+    }
+    p{
+      margin: 0;
+      padding: 0;
+      font-weight: 200;
+      font-size: 30px;
+      font-family: sans-serif;
+      letter-spacing: 0;
+      text-align: center;
+    }
+    #guess-form {
+      text-align: center;
+    }
+    #guess-input {
+      width: 50px;
+      height: 25px;
+    }
+    #result {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Number Guessing Game</h1>
+  <p>Guess a number between 1 and 10</p>
+  <form id="guess-form">
+    <input type="number" id="guess-input" min="1" max="10">
+    <button type="submit">Guess</button>
+  </form>
+  <p id="result"></p>
+
+  <script>
+    // JS for game logic goes here
+    var correctNumber = Math.floor(Math.random() * 10) + 1;
+    var guessForm = document.getElementById("guess-form");
+    var guessInput = document.getElementById("guess-input");
+    var result = document.getElementById("result");
+
+    guessForm.onsubmit = function(event) {
+      event.preventDefault();
+      var guess = guessInput.value;
+      if (guess == correctNumber) {
+        result.innerHTML = "Congratulations! You guessed the correct number.";
+      } else {
+        result.innerHTML = "Sorry, that's not the correct number. Try again.";
+      }
+    }
+  </script>
+</body>
+</html>

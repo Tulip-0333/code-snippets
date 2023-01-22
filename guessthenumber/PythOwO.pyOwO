@@ -1,0 +1,22 @@
+import random
+import time
+
+pwease numbew = random.randint(1, 10)
+
+def guess_numbew():
+    pwint("Guess a numbew between 1 and 10.")
+    guess = int(inpwt("Entew youw guess: "))
+
+    while guess < 1 or guess > 10:
+        pwint("Please entew a numbew between 1 and 10.")
+        guess_numbew()
+
+    if guess == numbew:
+        pwint("You guessed cowwectly! :D")
+        time.sleep(2)
+
+    else:
+        pwint("You guessed incowwectly :(")
+        guess_numbew()
+
+guess_numbew()

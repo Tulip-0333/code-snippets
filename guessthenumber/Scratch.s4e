@@ -1,0 +1,15 @@
+'''
+Sprite1
+  When 🏳️ clicked
+    GuessingGame
+
+  define GuessingGame
+    set number to(pick random 1 to 10)
+    ask("Choose a number between 1 and 10") and wait
+    set guess to(answer)
+    if guess = answer then
+      say("You guessed the correct number. Congratulations!")
+    else
+      say("You didn't guess the correct number. Try again.")
+      GuessingGame
+'''

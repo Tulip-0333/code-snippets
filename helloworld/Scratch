@@ -1,0 +1,3 @@
+Sprite1
+  When 🏳️ clicked
+    say("Hello, World!")

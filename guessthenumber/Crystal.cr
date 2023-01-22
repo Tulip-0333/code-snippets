@@ -12,9 +12,6 @@ while true
   if guess == answer
     puts "Congratulations! You guessed the correct number."
     break
-  elsif guess < answer
-    puts "Too low. Try again."
-  elsif guess > answer
-    puts "Too high. Try again."
-  end
+  else
+    puts "Sorrry, that's not the correct number."
 end

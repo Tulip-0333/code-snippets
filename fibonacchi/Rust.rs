@@ -8,3 +8,8 @@ fn fibonacci(n: u64) -> u64 {
   }
   f0
 }
+
+fn main() {
+  let result = fibonacci(10);
+  println!("{}", result);
+}

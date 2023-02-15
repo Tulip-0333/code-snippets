@@ -1,15 +1,6 @@
 # Programming Language Snippets and Games
 
-This repository contains a collection of code snippets and games written in various programming languages. Each game or snippet is contained in its own directory, with a README file describing the game or snippet and the programming language it is written in. The goal of this repository is to showcase the different syntax, approaches and features used in each language. It serves as a great resource for beginners looking to learn a new programming language, for experienced developers to compare and contrast different languages or for anyone who just want to have fun with some games.
-
-# Languages Included
-
-    C
-    C++
-    Python
-    Java
-    JavaScript
-    and more...
+This repository contains a collection of code snippets and games written in various programming languages. The goal of this repository is to showcase the different syntax, approaches and features used in each language. It serves as a great resource for beginners looking to learn a new programming language, for experienced developers to compare and contrast different languages or for anyone who just want to have fun with some games.
 
 # Adding a new language
 

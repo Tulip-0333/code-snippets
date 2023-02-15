@@ -23,7 +23,7 @@ while running:
     if event.type == pygame.QUIT:
       running = False
   screen.fill((0, 0, 0))
-  sreen.blit(text, text_rect)
+  screen.blit(text, text_rect)
   pygame.display.flip()
   
 pygame.quit()
